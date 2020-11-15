@@ -4,6 +4,16 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.project-header {
+    display:flex;
+    justify-content: space-between;
+}
+.github-image {
+    width: 60px;
+    height: auto;
+}
+
 .project-description {
     width: 500px;
 }
@@ -13,7 +23,13 @@
     height: auto;
     align-self: flex-start;
 }
-
+.demo-link {
+    width: 50px;
+    background-color: white;
+    color:red;
+    text-decoration: none;
+    border: solid 2px red;
+}
 .Profile {
     width: 600px;
     margin: auto;
