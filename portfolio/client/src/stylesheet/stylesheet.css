@@ -1,0 +1,20 @@
+.project-div {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.project-description {
+    width: 500px;
+}
+
+.project-img {   
+    width: 700px;
+    height: auto;
+    align-self: flex-start;
+}
+
+.Profile {
+    width: 600px;
+    margin: auto;
+}

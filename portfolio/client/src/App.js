@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Profile from './components/Profile';
 import Project from './components/Project';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Project projectTitle = "ProManager"/>
     <Project projectTitle = "Convergence"/>
     <Project projectTitle = "Mictlan"/>
+    <Footer/>
     </div>
   );
 }

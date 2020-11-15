@@ -1,4 +1,5 @@
 import React from 'react';
+import '../stylesheet/stylesheet.css'
 
 export default function Profile() {
     return (
