@@ -4,16 +4,17 @@ import '../stylesheet/stylesheet.css'
 export default function Profile() {
     return (
         <div className = "Profile">
-            <div>
-                <h1>Jesus Aguilar</h1>
-                <h3>Full-Stack Web Developer</h3>
-            </div>
-            <div>
-                <h2>About</h2>
-                <p>Hola! Jesus here, I'm a San Francisco Bay Area software developer and scientis
-                    that enjoys learning and experimenting incredibly motivating. I am a creator with
-                    a passion for building full-stack applications. 
-                    </p>
+            <div id = "profile-content">
+            <div id="div-about-left">
+                    <h1 id="name-header">Jesus Aguilar</h1>
+                    <h3 id="developer-header">Full-Stack Web Developer</h3>
+                </div>
+                <div id="div-about-right">
+                    <p id="p-about">San Francisco Bay Area <span className ="about-span"> software developer </span> and <span className ="about-span"> scientist </span>
+                        that enjoys learning and experimenting incredibly motivating. I am a <span className ="about-span">creator</span> with
+                        a passion for building full-stack applications. 
+                    </p >
+                </div>
             </div>
         </div>
     )
