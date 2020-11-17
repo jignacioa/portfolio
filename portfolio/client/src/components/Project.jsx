@@ -11,7 +11,7 @@ export default function Project(props) {
         project = (
             <div className="project-div">
             <img className="project-img" src={convergence}/>
-            <div>
+            <div className="project-div-right">
                 <div className="project-header">
                 <h3>{props.projectTitle}</h3>
                 <img className = "github-image" src ={octocat}/>
@@ -25,7 +25,7 @@ export default function Project(props) {
         project = (
             <div className="project-div">
                 <img className="project-img" src={mictlan}/>
-            <div>
+            <div className="project-div-right">
                 <div className="project-header">
                 <h3>{props.projectTitle}</h3>
                 <img className = "github-image" src ={octocat}/>
@@ -41,7 +41,7 @@ export default function Project(props) {
         project = (
             <div className="project-div">
                 <img className="project-img" src={promanager}/>
-                <div>
+                <div className="project-div-right">
                     <div className="project-header">
                     <h3>{props.projectTitle}</h3>
                     <img className = "github-image" src ={octocat}/>
