@@ -5,7 +5,7 @@
     display:flex;
     justify-content: space-around;
     margin: auto;
-    background: rgb(207,205,206);
+    background: rgb(96,99,104);
 }
 
 .project-img {   
@@ -17,6 +17,8 @@
 .project-div-right {
     width: 50%;
     padding: 1%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 .project-header {
@@ -31,14 +33,15 @@
 
 .project-description {
     width: 500px;
+    margin: auto;
 }
 
 .demo-link {
     width: 100px;
-    background-color: white;
-    color: red;
+    background-color: rgb(96,99,104);
+    color: white;
     text-decoration: none;
-    border: solid 2px red;
+    border: solid 1px white;
     display: inline-block;
 }
 .Profile {
@@ -82,7 +85,7 @@
 #name-header {
     margin-top: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 400%;
+    font-size: 500%;
     margin-bottom: 0px;
 }
 
@@ -98,4 +101,21 @@
 
 .about-span {
     color: rgb(130,174,247);
+}
+
+.divider-div {
+    display:flex;
+    background: rgb(27,29,28);
+    color: white;
+    justify-content: center;
+    height: 130px;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+}
+
+.divider-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
 }
